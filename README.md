@@ -12,6 +12,11 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
+## 📦 Models Download
+
+- [IF-CRITIC-14B](https://huggingface.co/thu-coai/IF-CRITIC-14B), based on Qwen-2.5-14B-Instruct
+- [IF-CRITIC-Checklist-Generator-14B](https://huggingface.co/thu-coai/IF-CRITIC-Checklist-Generator-14B), based on Qwen-2.5-14B-Instruct
+
 ## 🔥 IF-CRITIC Training
 
 - Our training codes of SFT and DPO are based on [LLama-Factory](https://github.com/hiyouga/LLaMA-Factory).
@@ -33,7 +38,7 @@ Our implementation is based on [vllm](https://github.com/vllm-project/vllm) fram
 
 Some examples of input instructions are placed in `checklist_generation/input_examples.json`. You could preprocess your own instructions referring to these files. 
 
-The format of a input instruction is as follows:
+The format of an input instruction is as follows:
 
 - `instruction` (string): The input instruction.
 
